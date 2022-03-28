@@ -1,0 +1,52 @@
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color:rgb(39, 38, 38);
+}
+
+li{
+    float: left;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+
+.menu ul li .dropdown {
+	display: none;
+}
+
+.menu ul li:hover .dropdown {
+	display: block;
+	background: rgb(39, 38, 38);
+	position: absolute;
+	padding: 10px;
+}
+
+.menu ul li:hover .dropdown li {
+	display: block;
+}
+
+.menu ul li:hover .dropdown li a {
+	padding: 10px;
+	border-radius: 5px;
+	margin-bottom: 5px;
+}
+
+.menu ul li:hover .dropdown li a:hover {
+	box-shadow: inset 0px 0px 5px rgb(39, 38, 38);
+}
+
+.menu ul li a:hover {
+	display: block;
+	color:white;
+	background: pink;
+	box-shadow: inset 0px 0px 5px rgb(39, 38, 38);
+}
